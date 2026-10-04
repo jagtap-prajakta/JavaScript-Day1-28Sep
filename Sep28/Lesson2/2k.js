@@ -1,0 +1,1 @@
+Math.ceil(2.2)  // 3 this method rounds up to the nearest integer number
