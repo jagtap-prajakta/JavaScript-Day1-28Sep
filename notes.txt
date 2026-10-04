@@ -1,0 +1,1 @@
+to round up float values in js: use Math.round(2.2) => 2
