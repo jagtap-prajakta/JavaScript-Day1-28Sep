@@ -1,1 +1,12 @@
 to round up float values in js: use Math.round(2.2) => 2
+
+-------------------------------------------- Lesson 3 : Strings -------------------------------------------- 
+String represents text
+Syntax rules for Strings:
+    - to create a String we just write a test and surround it with single quotes 
+    - Three ways to create string in JavaScript: 1. 'single quotes'<= recommended by default
+                                                 2. "double quotes"      "I'm learning JS"✅      'I'm learning Js'❎
+                                                 3. template string: (`backtick`)     `Hello, ${name}. Your total is $${items * price}.`
+                                                 3. escape characters(\',\", \n)     'I\'m learning JS' 
+
+
