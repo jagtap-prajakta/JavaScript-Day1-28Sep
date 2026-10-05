@@ -10,3 +10,63 @@ Syntax rules for Strings:
                                                  3. escape characters(\',\", \n)     'I\'m learning JS' 
 
 
+------------------------------------------- Lesson 4 : HTML CSS review, console.log -----------------------------------
+tag, element, selector, attribute
+button tag (attributes=> title: if u hover over a button it displays the text given as value of title attribute also called tooltip)
+comments: information that gets ignored by the computer, it states what the code does
+JS syntax for comment: //, /* */
+HTML comment syntax: <!-- -->
+CS comment syntax: /* */
+
+console.log() will display whatever's in the brackets back in the console
+
+
+---------------------------------------- Lesson 5 : Variables ---------------------------------------
+variable = a container, we can save a value like a number or string inside a variable and then use it later
+
+Syntax rules for createing variables:
+- the eord let creates a new variable and then we give the variable a name so we can name variables almost anything we want except for a new restrictions
+                Variable name restrictions
+                  1. cant user special words Example: let
+                  2. start a variable with a number however we can user numbers in the middle or the end
+                  3. we cant use special characters except:$, _.
+
+
+- how to change a value saved inside a variable
+to do so we gonna add some new lines and we're gonna type the variable name again and set another value
+
+
+when we first save a value inside a variable, it is called assigning a value to a variable. later on if we change the value inside the same variable it is called Re-assigning a value to a variable
+Syntax rules for re-assigning a value:
+    - Dont use "let" wen re-assigning thats because let creates a new variable
+      so if we try to use let again it would try to create a new variable with same name however the variable already exists and we cant create two variables with same name as it will cause an error
+    - to reassign a variable we just type out the variable name and make it equal to something else so thats the syntax for reassigning a variable
+
+
+- Variable reassignment shortcuts:
+    +=  variable = variable + 2
+    -=  var = var - 2
+    *=  var = var * 2
+    /=  var = var / 2
+    ++  var = var + 1
+    --  var = var - 1
+
+- Naming conventions:
+  camelCase    :    cartQuantity (recommended in JavaScript)
+  PascalCase   :    CartQuantity
+    - same as camelCase, except we capitalize first word
+  kebab-case   :    cart-quantity (doesn't work in JavaScript, but we use it in HTML CSS and also in our file names)
+
+
+- 3 ways to create variables: let, const, var
+    1. let
+    2. const : it makes our code safer and easier to understand 
+    
+       Best practice = to use const by default
+       (only use let when we need to change the variable)
+    3. var : it creates variable just like let and this variable can be changed later. var is actually the original way to create variables in JS
+        however var has some issues
+
+
+- (typeof variable)  
+   example: console.log(typeof 3)    console.log(typeof variableName)
